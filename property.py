@@ -26,4 +26,3 @@ b.data=(500, "Allen", 8, "Sales")
 print(b.data)
 del b.data
 print(b.data)
-
