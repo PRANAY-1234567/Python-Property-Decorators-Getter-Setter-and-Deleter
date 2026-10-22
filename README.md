@@ -47,8 +47,7 @@ class Bank:
             getattr(self, "TE", "employee_data"),
             getattr(self, "name", "name_data"),
             getattr(self, "_hour", "Hour_data"),
-            getattr(self, "__dept", "dept_data")
-        )
+            getattr(self, "__dept", "dept_data"))
 
     @data.setter
     def data(self, values):
